@@ -5,6 +5,8 @@ const connectDB = async () => {
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      serverSelectionTimeoutMS: 5000, // Tiempo de espera para la conexión
+      socketTimeoutMS: 45000, // Tiempo de espera para las operaciones
     });
     console.log("MongoDB conectado");
   } catch (error) {
@@ -14,4 +16,3 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
-
