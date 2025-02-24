@@ -2,3 +2,6 @@
 
 ### Login with Nextjs
 
+Login
+Register
+Jwt
