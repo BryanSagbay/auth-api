@@ -1,3 +1,3 @@
-# auth-api
+# Auth-api
 
 ### Login with nextjs
