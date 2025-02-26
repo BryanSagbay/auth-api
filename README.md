@@ -3,6 +3,6 @@
 ### Login with Nextjs
 
 > Login
-Register
+> Register
 Jwt
 User
