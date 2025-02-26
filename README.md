@@ -2,7 +2,7 @@
 
 ### Login with Nextjs
 
-Login
+Login /n
 Register
 Jwt
 User
